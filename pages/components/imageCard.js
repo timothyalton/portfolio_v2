@@ -25,7 +25,8 @@ const ImageCard = (props) => {
                 alt={props.title}
                 width={384}
                 height={288}
-                className='max-w-full max-h-full w-full h-full object-cover' 
+                className='max-w-full max-h-full w-full h-full object-cover'
+                unoptimized={true}
 
               />
             </div>
